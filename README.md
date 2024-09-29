@@ -20,7 +20,7 @@ Bionic Reading is an iOS application that implements the bionic reading algorith
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/BionicReading-iOS.git
+   git clone https://github.com/pLembo90/BionicReading.git
    ```
 
 2. Open the project in Xcode.
