@@ -1,0 +1,68 @@
+* {
+    font-family: system-ui;
+}
+
+body {
+    gap: 14px;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+    background-color:#2572ee;
+    text-align: center;
+    padding: 0pc;
+}
+
+button:hover {
+    transition: 0.3s;
+}
+
+.modeLabel {
+    display: none
+}
+
+:is([br-mode=on] #onModeLabel, [br-mode=off] #offModeLabel) {
+    display: initial
+}
+
+button:active {
+    background-color:#2572eece;
+    border:none;
+}
+
+#lineHeightLabel {
+    padding-bottom: 4px;
+    text-align: center;
+    font-family: system-ui;
+    border:none;
+}
+
+#checkboxContainer {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: 10px
+    margin-bottom: 10px;
+    
+}
+
+.w-100 {
+    width: 100%
+}
+
+.flex {
+    display: flex
+}
+
+.flex-column {
+    flex-direction: column
+}
+
+.justify-between {
+    justify-content: space-between
+}
+
+.align-items-center {
+    align-items: center
+}
